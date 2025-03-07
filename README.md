@@ -47,7 +47,7 @@ model = Sequential([
 ```
 Iris-Classification-Keras/
 ├── notebooks/
-│   └── Iris_Classification.ipynb  # Your Jupyter notebook
+│   └── Iris_Classification.ipynb  # Jupyter notebook file
 ├── README.md
 └── requirements.txt  # List of dependencies
 ```
