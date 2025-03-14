@@ -5,10 +5,12 @@
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-brightgreen)
 
 A neural network model to classify iris flowers into 3 species using Keras.
+
 ---
 
 ## Overview
 This project uses the **Iris dataset** to train a neural network model for species classification. The model achieves **~90% validation accuracy** and **73.9% test accuracy**. The repository includes data preprocessing, model training, and evaluation steps.
+
 ---
 
 ## Key Features
@@ -22,17 +24,17 @@ This project uses the **Iris dataset** to train a neural network model for speci
 
 ## Dataset
 The Iris dataset contains 150 samples with 4 features:  
-- Sepal length, sepal width, petal length, petal width.  
-- Target classes: Setosa, Versicolor, Virginica.
+  - Sepal length, sepal width, petal length, petal width.  
+  - Target classes: Setosa, Versicolor, Virginica.
 ---
 
 ##  Model Architecture
-```python
-model = Sequential([
-    Dense(16, activation='relu', input_shape=(4,)),
-    Dense(3, activation='softmax')
-])
-```
+    ```python
+    model = Sequential([
+          Dense(16, activation='relu', input_shape=(4,)),
+          Dense(3, activation='softmax')
+    ])
+    ```
 - Loss Function: ```sparse_categorical_crossentropy```
 - Optimizer: Adam
 - Metrics: Accuracy
@@ -55,21 +57,21 @@ Iris-Classification-Keras/
 
 ## Installation
 1. Clone the repository:
-```
-git clone https://github.com/zain-ul-abideen-5036/Iris-Classification-Keras.git
-cd Iris-Classification-Keras
-```
+   ```
+   git clone https://github.com/zain-ul-abideen-5036/Iris-Classification-Keras.git
+   cd Iris-Classification-Keras
+   ```
 2. Install dependencies:
-```
-pip install -r requirements.txt
-```
+   ```
+   pip install -r requirements.txt
+   ```
 ---
 
 ## Usage
 1. Run the Jupyter notebook:
-```
-jupyter notebook notebooks/Iris_Classification.ipynb
-``` 
+   ```
+   jupyter notebook notebooks/Iris_Classification.ipynb
+   ``` 
 2. Follow the code cells to preprocess data, train the model, and evaluate performance.
 ---
 
