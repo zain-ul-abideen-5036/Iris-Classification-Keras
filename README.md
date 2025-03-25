@@ -29,12 +29,12 @@ The Iris dataset contains 150 samples with 4 features:
 ---
 
 ##  Model Architecture
-  ```python
-    model = Sequential([
-          Dense(16, activation='relu', input_shape=(4,)),
-          Dense(3, activation='softmax')
-    ])
-  ```
+```python
+model = Sequential([
+      Dense(16, activation='relu', input_shape=(4,)),
+      Dense(3, activation='softmax')
+])
+```
 - Loss Function: ```sparse_categorical_crossentropy```
 - Optimizer: Adam
 - Metrics: Accuracy
@@ -57,25 +57,26 @@ Iris-Classification-Keras/
 
 ## Installation
 1. Clone the repository:
-   ```
-   git clone https://github.com/zain-ul-abideen-5036/Iris-Classification-Keras.git
-   cd Iris-Classification-Keras
-   ```
+```
+git clone https://github.com/zain-ul-abideen-5036/Iris-Classification-Keras.git
+cd Iris-Classification-Keras
+```
 2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+```
+pip install -r requirements.txt
+```
 ---
 
 ## Usage
 1. Run the Jupyter notebook:
-   ```
-   jupyter notebook notebooks/Iris_Classification.ipynb
-   ``` 
+```
+jupyter notebook notebooks/Iris_Classification.ipynb
+``` 
 2. Follow the code cells to preprocess data, train the model, and evaluate performance.
 ---
 
 ## Contact
 For questions or feedback, email: abideen5036@gmail.com
+
 ---
 
